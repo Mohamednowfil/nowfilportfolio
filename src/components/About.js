@@ -28,9 +28,10 @@ function About() {
               <a href="tel:+918438825873">+91 8438825873</a>
             </p>
           </div>
-          <a href={`${process.env.PUBLIC_URL}/resume.pdf`} download className="resume-button">
+          <a href={`${process.env.PUBLIC_URL}/nowfildev.pdf`} download="Nowfil_Resume" className="resume-button">
             Download Resume
           </a>
+
         </div>
       </div>
     </section>

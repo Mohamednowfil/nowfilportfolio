@@ -1,4 +1,4 @@
-/* Global Styles */
+Global Styles
 * {
   margin: 0;
   padding: 0;
@@ -195,125 +195,12 @@ nav ul li a:hover {
   }
 }
 
-
-
-
-
-/* Header container */
-/*header {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-}
-
-/* Theme Toggle Button */
-/*.theme-toggle {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  color: var(--text-color);
-  cursor: pointer;
-}
-
-/* Logo */
-/*.logo a {
-  color: var(--text-color);
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-/* Menu icon for mobile */
-/*.menu-icon {
-  display: none;
-  cursor: pointer;
-}
-
-.menu-icon .line {
-  width: 25px;
-  height: 3px;
-  background-color: var(--text-color);
-  margin: 5px 0;
-}
-
-/* Close icon */
-/*.close-icon {
-  font-size: 1.5rem;
-  color: var(--text-color);
-}
-
-/* Mobile navigation links */
-/*ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-ul.active {
-  display: block;
-  position: absolute;
-  top: 60px;
-  left: 0;
-  right: 0;
-  background-color: var(--background-color);
-  padding: 20px 0;
-  flex-direction: column;
-  align-items: center;
-}
-
-ul a {
-  color: var(--text-color);
-  text-decoration: none;
-}
-
-ul a:hover {
-  color: var(--hover-color);
-}
-
-/* Responsive styling */
-/*@media (max-width: 768px) {
-  .menu-icon {
-    display: block;
-  }
-  
-  ul {
-    display: none;
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
-  }
-}
-
-/* Dark mode and light mode variables */
-/* Light and Dark Mode Variables */
-/*:root {
-  --background-color: #ffffff;
-  --text-color: #333333;
-  --hover-color: #555555;
-}
-
-.dark-mode {
-  --background-color: #111827; /* Updated to your desired dark color */
-  /*--text-color: #ffffff;
-  --hover-color: #bbbbbb;
-} */
-
-
-
-
 /* Section Styles */
 section {
   padding: 50px 40px;
  /* margin-bottom: 20px;
   text-align: center;
-  background-attachment: fixed; /* Parallax background */
+  background-attachment: fixed; Parallax background */
   background-size: cover;
   transform-style: preserve-3d;
 }
@@ -468,6 +355,11 @@ section h2 {
   .contact-info {
     margin-top: 10px;
     color: #ffaa00;
+  }
+  #certifications h2{
+    color: #ffcc00;
+    display: grid;
+    justify-content: center;
   }
 }
 
