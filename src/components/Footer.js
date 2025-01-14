@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <p>© 2024 Mohamed Nowfil. All Rights Reserved.</p>
+      <p>© {new Date().getFullYear()} Mohamed Nowfil, Designed by Mohamed Nowfil</p>
     </footer>
   );
 }
