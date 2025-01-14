@@ -10,8 +10,8 @@ function About() {
           <img src={`${process.env.PUBLIC_URL}/nowfil.jpeg`} alt="Mohamed Nowfil" />
         </div>
         <div className="about-content">
-          <h3>MERN Stack Developer</h3>
-          <p>
+          <h3 className="main-title">MERN Stack Developer</h3>
+          <p className="summary">
             Hello! I am <a style={{color: "#ffcc00"}}>Mohamed Nowfil</a>, a passionate MERN Stack developer
             with experience in building web applications. I specialize in using
             MongoDB, Express.js, React, and Node.js to create dynamic and
