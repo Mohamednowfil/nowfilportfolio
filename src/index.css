@@ -324,6 +324,13 @@ section h2 {
   margin-right: 8px;
 }
 
+.certification-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
 .resume-button {
   display: inline-block;
   padding: 10px 20px;
