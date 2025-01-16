@@ -89,7 +89,7 @@ const Projects = () => {
         }
 
         .project-image {
-          width: 100%;
+          width:100%;
           height: auto;
           border-radius: 8px;
           margin-bottom: 10px;
